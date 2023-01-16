@@ -20,6 +20,6 @@ module_init(test_hello_init);
 module_exit(test_hello_exit);
 
 
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("GPL v2");
 MODULE_AUTHOR("SUDHIR BORRA");
 MODULE_DESCRIPTION("BASIC CHARACTER DEVICE DRIVER");

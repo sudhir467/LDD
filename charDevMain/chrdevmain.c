@@ -13,7 +13,6 @@
 
 #define mem_size 1024
 
-
 dev_t dev=0;
 static struct class *dev_class;
 static struct cdev my_cdev;
@@ -26,7 +25,6 @@ static int my_open(struct inode *inode,struct file *file);
 static int my_release(struct inode *inode, struct file *file);
 static ssize_t my_read(struct file *filp, char __user *buf,size_t len, loff_t *off);
 static ssize_t my_write(struct file *filp, const char *buf, size_t len, loff_t *off);
-
 
 
 static struct file_operations fops=
@@ -72,8 +70,6 @@ static ssize_t my_write(struct file *filp, const char __user *buf, size_t len, l
     printk(KERN_INFO " Data is written successfully... \n");
     return len;
 }
-
-
 
 
 static int __init chr_driver_init(void)
@@ -124,8 +120,6 @@ r_class:
             return -1;
 
 }
-
-
 
 
 void __exit chr_driver_exit(void)
