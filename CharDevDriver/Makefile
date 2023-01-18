@@ -1,5 +1,5 @@
 
-obj-m	:=charDev_1.o
+obj-m	:=char_Devicefile.o
 
 KDIR 	:= /lib/modules/$(shell uname -r)/build
 PWD		:= $(shell pwd)
