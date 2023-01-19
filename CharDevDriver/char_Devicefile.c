@@ -1,4 +1,4 @@
-/*Demonstration of character device drivers- Creating Device file*/
+/*Demonstration of character device drivers- Creating Device file- Creating a struct class*/
 
 #include<linux/kernel.h>
 #include<linux/module.h>
