@@ -1,5 +1,5 @@
 
-obj-m	:=char_fops1.o
+obj-m	:=char_fops3.o
 
 KDIR 	:= /lib/modules/$(shell uname -r)/build
 PWD		:= $(shell pwd)
