@@ -32,9 +32,9 @@ static int mydevice_release(struct inode *inode, struct file *file)
 
 static ssize_t mydevice_read(struct file *file, char __user *userbuffer, size_t count, loff_t *offset)
 {
-    char kernel_buffer[10] = "kernel";
+    char kernel_buffer[10] = "sudhir";
     int retval;
-    retval = copy_to_user(userbuffer, kernel_buffer, 7);
+    retval = copy_to_user(userbuffer, kernel_buffer, 6);
     pr_info("%s:copy_to_user returned:%d \n", __func__, retval);
     pr_info("%s: Kernel buffer:%p \t count:%lu \t offset:%llu \n", __func__, kernel_buffer, count, *offset);
     return count;

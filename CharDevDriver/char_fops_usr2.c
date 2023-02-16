@@ -1,4 +1,4 @@
-/*************The user space application  for char_fops2.c ******************/
+/*************User space application  for char_fops2.c ******************/
 
 #include <stdio.h>
 #include <stdlib.h>
