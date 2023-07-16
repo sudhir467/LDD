@@ -56,6 +56,6 @@ static void __exit my_exit(void)
 module_init(my_init);
 module_exit(my_exit);
 
-MODULE_AUTHOR("TechoGenius Academy");
+MODULE_AUTHOR("Sudhir Borra");
 MODULE_DESCRIPTION(" requesting the I/O Ports");
 MODULE_LICENSE("GPL");
